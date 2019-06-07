@@ -1,0 +1,28 @@
+body{
+	background-color: #000;
+}
+
+.centered-video {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.back{
+  position: fixed;
+  text-align: left;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0);
+  color: white;
+  width: 100%;
+  padding: 20px;
+  z-index: 1;
+}
+
+a{
+  font-style: italic;
+    font-size: 20;
+  color:#ffffff;
+}
